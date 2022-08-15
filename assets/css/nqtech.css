@@ -1,0 +1,63 @@
+#nqtechbody {
+
+    background-color: rgb(30, 30, 30);
+
+}
+
+.nav-item{
+    position: relative;
+    top: auto;
+    text-align: center;
+    align-items: center;
+font-size: 20px;
+}
+
+.nav {
+    text-align: center;
+    align-items: center;
+
+}
+
+.fa-sign-out {
+    top: 10px;
+    position: relative;
+
+}
+
+.container-fluid .banir {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+    padding: 0px 0px;
+}
+
+
+.Banner-Text {
+    color: rgba(204, 204, 204, 0.769);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #0000003d;
+    border-radius: 30px;
+    padding: 10px;
+    right: 200px;
+
+
+}
+
+#Banner-Art {
+    position: absolute;
+    top: -16px;
+    border-radius: 30px;
+    left: 150px;
+}
+
+#ban {
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    padding: 100px ;
+
+}
