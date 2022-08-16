@@ -105,3 +105,26 @@ font-size: 20px;
 
     
 }
+
+hr {
+background-color: aliceblue;
+}
+
+.SocialMediaItem {
+    margin: 30px;
+}
+
+.FooterRight {
+    margin: 30px;
+
+}
+
+
+.FooterLeft {
+    margin: 30px;
+}
+
+
+.Copyright {
+    margin: 30px;
+}
