@@ -62,6 +62,7 @@
 
 
 .toolbar {
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -84,16 +85,25 @@
     width: auto;
     font-size: 30px;
     padding: 5px 0px;
-    margin: 5px 50px;
+    margin: 5px auto;
     border: none;
     background: none;
     color: #00aaffe0;
 }
 
+.toolbar button :hover {
+    color: #00ff33;
+}
+
 .ToolbarInner button i {
-    display: table;
-    margin: 0 auto 6px;
-    width: 100%;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    font-size: 12px;
+    padding: 8px 0px;
+    border: none;
+    background: none;
     font-size: 21px;
 }
 
@@ -107,10 +117,11 @@
 }
 
 .ToolbarInner h1 u {
-    display: flex;
-    margin: -21px auto 4px;
-    width: 55px;
-    height: 55px;
+
+    display: table;
+    margin: 0 auto 6px;
+    width: 100%;
+    font-size: 21px;
     background: #2b629a;
     border-radius: 15px;
     justify-content: center;
@@ -122,7 +133,6 @@
     transition: 300ms;
 }
 
-
 /* slick >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
@@ -131,10 +141,11 @@
 
 
 .slick-page {
-    position: absolute;
+    position: relative;
+    vertical-align: top;
     top: 65px;
     width: auto;
-    height: auto;
+    height: 750px;
     overflow: hidden;
     padding: 0px 0px;
     background-color: rgb(27, 27, 27);
@@ -143,6 +154,7 @@
     margin: 13px 16px;
     border: none;
     border-radius: 15px;
+
 }
 
 
@@ -180,29 +192,31 @@
 
 .pic img {
     position: relative;
-    top: 10px;
-    right: 305px;
-    height: auto;
-    width: 60px;
+    top: -1px;
+    right: 70%;
+    /* height: auto; */
+    width: 65px;
     border-radius: 100%;
     border-color: #00a2e0;
-    border-style: solid
+    border-style: solid;
+    /* direction: unset; */
+    /* direction: inherit; */
 }
 
+
 .pic h5 {
-    position: relative;
     text-align: left;
-    padding-left: 90px;
+    padding-left: 41px;
     top: -30px;
     font-size: 18px;
     color: #cacaca;
 }
 
 .card-boton {
-
     font-size: 27px;
     margin: 4px;
     padding: -4px;
+    border-top: solid #aaaa;
 }
 
 
@@ -230,12 +244,15 @@
 }
 
 .postar form {
-    position: absolute;
-    top: 50px;
-    left: 110px;
+
+    position: relative;
+    top: -143px;
 
 }
+
 .postar input {
+
+
     display: block;
     margin: auto;
     margin-top: 40px;
@@ -244,7 +261,10 @@
     border: solid;
     border-color: #00a2e0;
 
+
+
 }
+
 
 .postar img {
     position: relative;
@@ -263,11 +283,11 @@
 
 
 .DesertBG {
-    position: absolute!important;
+    position: absolute !important;
     left: 0;
     top: 0;
-    width: 100%!important;
-    height: 100%!important;
+    width: 100% !important;
+    height: 100% !important;
     opacity: 0.4;
 }
 
@@ -275,7 +295,8 @@
 .ItemsOfChoice {
     display: table;
     margin: 10px auto;
-    width: 100%;}
+    width: 100%;
+}
 
 
 
@@ -288,12 +309,22 @@
     padding: 7px 0px;
     border: none;
     border-radius: 9px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
-        
-   
 
+
+
+    transition: width 1s, height 1s;
 }
+
+
+.ItemsOfChoice button :hover {
+    width: 30px;
+    height: 30px;
+}
+
+
+
 
 .ItemsOfChoice button img {
     display: block;
@@ -303,6 +334,53 @@
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Items */
+
+
+
+/* MyWalit >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.MyWalit {
+    padding: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #017ae3;
+
+}
+
+
+.MyWalit h1 {
+    border-bottom: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: #00e04e;
+
+}
+
+
+.MyWalit p {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    border-bottom: solid 1px #00e04e;
+    padding: 10px 10px;
+}
+
+
+.MyWalit p u {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    min-width: 18px;
+    text-align: center;
+
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< MyWalit */
+
 
 
 .Header button {
@@ -5235,4 +5313,3 @@ input[type=email] {
     text-decoration: none;
     color: #ef7900;
 }
-
