@@ -126,16 +126,7 @@
 /* slick >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
-section img {
 
-    position: fixed;
-    width: auto;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-    padding: 0px 0px;
-}
 
 
 
@@ -171,6 +162,7 @@ section img {
 .HrLain {
     color: #00ff33;
 }
+
 .card-body {
 
     text-align: left;
@@ -217,24 +209,101 @@ section img {
 .card-boton .fa {
     color: #777777;
     padding-left: 39px;
-    padding-right: 39px;} 
+    padding-right: 39px;
+}
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< post */
 
 
 
 /* postar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-.postar{
+.postar {
     display: block;
     margin: 0 auto;
     position: relative;
     background-color: #00e04e;
     border: #00e04e;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.postar form {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+
+}
+.postar input {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: solid;
+    border-color: #00a2e0;
+
+}
+
+.postar img {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
+
+
+/* Items >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.DesertBG {
+    position: absolute!important;
+    left: 0;
+    top: 0;
+    width: 100%!important;
+    height: 100%!important;
+    opacity: 0.4;
 }
 
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
+.ItemsOfChoice {
+    display: table;
+    margin: 10px auto;
+    width: 100%;}
+
+
+
+.ItemsOfChoice button {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    background-color: #7e7e7e;
+    margin: 10px 2%;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 500;
+        
+   
+
+}
+
+.ItemsOfChoice button img {
+    display: block;
+    margin: 0 auto 10px;
+    width: auto;
+    height: 60px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Items */
+
 
 .Header button {
     position: absolute;
@@ -5166,3 +5235,4 @@ input[type=email] {
     text-decoration: none;
     color: #ef7900;
 }
+
