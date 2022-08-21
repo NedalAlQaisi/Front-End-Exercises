@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="..//assets/images/Logo_EE_d10-04.png" rel="icon">
+  <title>Home</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+</head>
+
+<body class="body">
+
+  <div class="BackPic">
+    <img src="../assets/images/ground-coffee-in-portafilter-for-espresso-in-a-woo-2021-12-09-02-45-14-utc.JPG">
+  </div>
+
+  <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Header  -->
+
+
+  <header>
+    <div class="header">
+
+      <div>
+
+        <img src="..//assets/images/Logo_EE_.png">
+
+        <button type="button" class="SearchHeaderBtn">
+
+          <i class="fa fa-bars" aria-hidden="true"></i>
+
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!--  Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+  <div class="w3-content w3-section" >
+    <img class="mySlides w3-animate-top" src="../assets/images/barista-making-coffee-2022-03-04-01-50-22-utc.jpg" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="../assets/images/coffee-beans-turkish-jezve-coffee-cup-and-sugar-2021-09-03-08-56-39-utc.jpg" style="width:100%">
+    <img class="mySlides w3-animate-top" src="../assets/images/roasted-coffee-beans-and-ground-coffee-in-filter-h-2022-04-15-11-24-30-utc.jpg" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="../assets/images/top-view-of-ground-coffee-in-portafilter-on-coffee-2022-01-18-23-41-28-utc.jpg" style="width:100%">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+  }
+  </script>
+
+
+
+
+
+
+<div id="card" class="card-body">
+
+  <div class="postar">
+    <img class="DesertBG" src="../assets/images/coffee-beans-turkish-jezve-coffee-cup-and-sugar-2021-09-03-08-56-39-utc.jpg" >
+
+    <form>
+      <label for="">أدخل الكود هنا</label>
+      <input type="text" id="YourCode" name="YourCode" placeholder="Your Code">
+    </form>
+
+  </div>
+
+  <div class="ItemsOfChoice">
+
+   
+
+      <button>
+        <img src="../assets/images/development.gif">
+        الإعدادت
+      </button>
+
+
+
+
+
+
+   
+
+      <button>
+        <img src="../assets/images/SD4.gif">
+        المواعيد
+      </button>
+
+
+  
+
+
+
+
+
+
+
+   
+
+      <button>
+        <img src="../assets/images/wireframe.gif">
+        المتابعة
+      </button>
+
+
+  
+
+
+
+
+
+
+    
+
+      <button>
+        <img src="../assets/images/SD1.gif">
+        فريق العمل
+      </button>
+
+
+
+
+
+    
+
+      <button>
+        <img src="../assets/images/SD2.gif">
+        حلول بديلة
+      </button>
+
+
+
+
+    
+
+      <button>
+        <img src="../assets/images/DeletedOrder.gif">
+        الطلبات الملغاء
+      </button>
+    
+  </div>
+
+
+
+  <!--  slick >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+  <!-- <section>
+
+
+    <div class="one-time slick-page">
+
+
+
+
+      <div id="card" class="card">
+
+        <div class="MyWalit">
+          
+          <h1>
+            محفظتي
+          </H1>
+
+          <p> القيمة المتبقية
+            <u>
+              <i class="fa fa-money" aria-hidden="true"></i>
+            </u>
+          </p>
+
+
+
+          <p>  عدد الطلبات الملغاة
+            <u>
+              <i class="fa fa-ban" aria-hidden="true"></i>
+
+            </u>
+          </p>
+
+
+
+
+          <p> أخر تاريخ تم التفاع على الموقع
+            <u>
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+            </u>
+          </p>
+
+
+          <p> تفعيل الحساب
+            <u>
+              <i class="fa fa-check-square" aria-hidden="true"></i>
+            </u>
+          </p>
+
+
+          
+
+        </div>
+
+
+      </div>
+
+
+      
+
+
+
+      <div id="card" class="card">
+
+        <div class="post">
+
+          <div class="card-pic pic">
+            <img src="../assets/images/nedal.jpg">
+            <h5> Nedal AL-qaisi</h5>
+          </div>
+
+          <div class="card-body">
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <p>
+              Hi, I’m Ashley and I’m a software engineer. My current focus is optimizing customer experience.
+
+              Nice to meet you all. My name is Michael and I’m the creative director. I work in the Brooklyn office.
+
+              Of course, what you share will depend on the situation and on the audience. If you are not sure what to
+              share, your name and job title is a great place to start. If there’s an opportunity to elaborate, you can
+              also share other details such as a current project, your expertise, or your geographical location.
+            </p>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+
+
+          <div class="card-boton">
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            <i class="fa fa-share-square-o" aria-hidden="true"></i>
+
+          </div>
+
+        </div>
+
+
+
+        
+        <div class="post">
+
+          <div class="card-pic pic">
+            <img src="../assets/images/nedal.jpg">
+            <h5> Nedal AL-qaisi</h5>
+          </div>
+
+          <div class="card-body">
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <p>
+              Hi, I’m Ashley and I’m a software engineer. My current focus is optimizing customer experience.
+
+              Nice to meet you all. My name is Michael and I’m the creative director. I work in the Brooklyn office.
+
+              Of course, what you share will depend on the situation and on the audience. If you are not sure what to
+              share, your name and job title is a great place to start. If there’s an opportunity to elaborate, you can
+              also share other details such as a current project, your expertise, or your geographical location.
+            </p>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+
+          <hr class="HrLain">
+
+          <div class="card-boton">
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            <i class="fa fa-share-square-o" aria-hidden="true"></i>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="post">
+
+          <div class="card-pic pic">
+            <img src="../assets/images/nedal.jpg">
+            <h5> Nedal AL-qaisi</h5>
+          </div>
+
+          <div class="card-body">
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <p>
+              Hi, I’m Ashley and I’m a software engineer. My current focus is optimizing customer experience.
+
+              Nice to meet you all. My name is Michael and I’m the creative director. I work in the Brooklyn office.
+
+              Of course, what you share will depend on the situation and on the audience. If you are not sure what to
+              share, your name and job title is a great place to start. If there’s an opportunity to elaborate, you can
+              also share other details such as a current project, your expertise, or your geographical location.
+            </p>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+
+          <div class="HrLain">
+            <hr>
+          </div>
+
+
+          <div class="card-boton">
+            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-share-square-o" aria-hidden="true"></i>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+    </div>
+  </section> -->
+
+  <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<< slick  -->
+
+
+
+  <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Toolbar  -->
+
+  <div class="toolbar">
+
+    <button type="button" class="SearchHeaderBtn">
+
+      <i class="fa fa-home" aria-hidden="true"></i>
+
+    </button>
+
+    <button type="button" class="SearchHeaderBtn">
+
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+    </button>
+
+    <button type="button" class="SearchHeaderBtn">
+
+      <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+
+    </button>
+
+    <button type="button" class="SearchHeaderBtn">
+
+      <i class="fa fa-bell" aria-hidden="true"></i>
+
+    </button>
+
+  </div>
+
+
+
+
+  <!--  Toolbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/slick.min.js"></script>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+</body>
+
+</html>
