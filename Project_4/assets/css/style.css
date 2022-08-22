@@ -5,6 +5,8 @@
     font-family: 'Readex Pro', sans-serif;
     outline: none !important;
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .body {
@@ -15,11 +17,12 @@
 
 .BackPic img {
     position: absolute !important;
-    left: 0;
-    top: 13px;
+    left: 0px;
+    /* top: 149px; */
     width: auto;
-    height: 100% !important;
+    height: 110% !important;
     opacity: 40%;
+    /* padding-bottom: 531px; */
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Header */
@@ -74,13 +77,14 @@
 .mySlides {
     position: fixed;
     /* display:none; */
-    top: 50px;
+    top: 55px;
     width: auto;
     height: 196px;
     overflow: hidden;
     filter: drop-shadow(-35px 0px 0px #0000000e);
     position: relative;
     width: 100%;
+    border-radius: 10px;
 }
 
 .w3-content {position: relative;width: 100%;max-height: 46px;display: inline-block;top: -4px;/* height: 0px; */padding: -22px;/* margin: -9px; *//* align-items: center; */}
@@ -233,10 +237,7 @@ margin: 100;
 /* padding-left: 1px; */
 }
 
-.card-body p {
-    color: #cacaca;
 
-}
 
 .pic img {
     position: relative;
@@ -284,13 +285,14 @@ margin: 100;
     display: block;
     margin: auto;
     position: relative;
-    background-color: #3e0f04;
-    border: #00e04e;
-    padding-top: 20px;
+    background-color: #241f1f;
+    /* border: #00e04e; */
+    padding-top: 21px;
     padding-bottom: 30px;
     position: relative;
-    height: 123px;
-    top: 18px;
+    height: 122px;
+    top: 22px;
+    text-align: right;
 }
 
 .postar form {
@@ -302,6 +304,10 @@ top: 2px;
 /* left: 12px; */
 
 margin-right: 17px;
+
+margin-top: 74px;
+
+/* border-radius: 10px; */
 }
 
 .postar input {
@@ -310,11 +316,11 @@ display: block;
 
 /* margin: auto; */
 
-margin-top: 82px;
+margin-top: 10px;
 
 text-align: center;
 
-border-radius: 50px;
+border-radius: 6px;
 
 border: solid;
 
@@ -330,6 +336,36 @@ border-color: #fde3a7;
     margin: auto;
     overflow: hidden;
     z-index: 0;
+    border-radius: 10px;
+    opacity: 0.2;
+}
+
+.postar .CodeOfer {
+
+margin-bottom: 232px;
+
+color: #fde3a7;
+}
+
+.postar .ButtonSubmit {
+    
+color: #fde3a7;
+    
+background: none;
+    
+text-align: center;
+    
+position: relative;
+    
+top: -22px;
+    
+left: -109px;
+    
+padding: 0px auto 0px;
+    
+/* padding-right: 0px; */
+    
+width: auto;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
@@ -345,16 +381,20 @@ border-color: #fde3a7;
     width: 100% !important;
     height: 100% !important;
     opacity: 0.5;
+    border-radius: 10px;
 }
 
 
 .ItemsOfChoice {
     position: absolute;
     display: table;
-    margin-top: 72px;
+    margin-top: -122px;
     width: 100%;
-    top: 138px;
+    /* height: 49px; */
+    top: 80px;
     text-align: center;
+    /* padding: -9px; */
+    /* box-shadow: 10px -25px 10px 37px #241f1f; */
 }
 
 
@@ -363,15 +403,16 @@ border-color: #fde3a7;
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    background-color: #7e7e7e;
+    background-color: #ffffff;
     margin: 5px;
-    padding: 7px 2px;
+    padding: -10px 0px;
     border: none;
-    border-radius: 9px;
+    border-radius: 10px;
     font-size: 13px;
     font-weight: 500;
     transition: width 1s, height 1s;
     /* top: 29px; */
+    box-shadow: 6px 6px 4px -3px #241f1f;
 }
 
 
@@ -385,9 +426,19 @@ border-color: #fde3a7;
 
 .ItemsOfChoice button img {
     display: block;
-    margin: 1px auto 9px;
+    margin: 14px auto 19px;
     width: auto;
-    height: 60px;
+    height: 55px;
+    padding: -62px;
+}
+
+.ItemsOfChoice .BotmTaitel {
+
+color: #804b21;
+
+min-height: 36px;
+
+margin: 8px;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Items */
