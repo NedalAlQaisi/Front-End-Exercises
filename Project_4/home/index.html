@@ -16,7 +16,7 @@
 
 <body class="body">
 
-  
+
 
   <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Header  -->
 
@@ -41,28 +41,35 @@
 
   <!--  Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
-  <div class="w3-content w3-section" >
-    <img class="mySlides w3-animate-top" src="../assets/images/barista-making-coffee-2022-03-04-01-50-22-utc.jpg" style="width:100%">
-    <img class="mySlides w3-animate-bottom" src="../assets/images/coffee-beans-turkish-jezve-coffee-cup-and-sugar-2021-09-03-08-56-39-utc.jpg" style="width:100%">
-    <img class="mySlides w3-animate-top" src="../assets/images/roasted-coffee-beans-and-ground-coffee-in-filter-h-2022-04-15-11-24-30-utc.jpg" style="width:100%">
-    <img class="mySlides w3-animate-bottom" src="../assets/images/top-view-of-ground-coffee-in-portafilter-on-coffee-2022-01-18-23-41-28-utc.jpg" style="width:100%">
+  <div class="w3-content w3-section">
+    <img class="mySlides w3-animate-top" src="../assets/images/barista-making-coffee-2022-03-04-01-50-22-utc.jpg"
+      style="width:100%">
+    <img class="mySlides w3-animate-bottom"
+      src="../assets/images/coffee-beans-turkish-jezve-coffee-cup-and-sugar-2021-09-03-08-56-39-utc.jpg"
+      style="width:100%">
+    <img class="mySlides w3-animate-top"
+      src="../assets/images/roasted-coffee-beans-and-ground-coffee-in-filter-h-2022-04-15-11-24-30-utc.jpg"
+      style="width:100%">
+    <img class="mySlides w3-animate-bottom"
+      src="../assets/images/top-view-of-ground-coffee-in-portafilter-on-coffee-2022-01-18-23-41-28-utc.jpg"
+      style="width:100%">
   </div>
-  
+
   <script>
-  var myIndex = 0;
-  carousel();
-  
-  function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2500);
     }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2500);    
-  }
   </script>
 
 
@@ -70,17 +77,17 @@
 
 
 
-<div id="card" class="card-body">
+  <div id="card" class="card-body">
 
-  
 
-  <div class="ItemsOfChoice">
 
-   
+    <div class="ItemsOfChoice">
 
-      <button>
+
+
+      <button class="Choice">
         <img src="../assets/images/beans.png">
-        
+
         <p class="BotmTaitel">
 
           قهوة خام
@@ -94,17 +101,16 @@
 
 
 
-   
 
-      <button>
+
+      <button class="Choice">
         <img src="../assets/images/coffee-cup.png">
         <p class="BotmTaitel">
-        سفري
+          سفري
         </p>
       </button>
 
 
-  
 
 
 
@@ -112,31 +118,32 @@
 
 
 
-   
 
-      <button>
+
+
+      <button class="Choice">
         <img src="../assets/images/cup.png">
         <p class="BotmTaitel">
 
-        صالة
+          صالة
         </p>
       </button>
 
 
-  
 
 
 
 
 
 
-    
 
-      <button>
+
+
+      <button class="Choice">
         <img src="../assets/images/cold-coffee.png">
         <p class="BotmTaitel">
 
-        قهوة باردة
+          قهوة باردة
         </p>
 
       </button>
@@ -145,34 +152,35 @@
 
 
 
-    
 
-      <button>
+
+      <button class="Choice">
         <img src="../assets/images/moka-pot.png">
         <p class="BotmTaitel">
 
-        موكا
+          موكا
         </p>
       </button>
 
 
 
 
-    
 
-      <button>
+
+      <button class="Choice">
         <img src="../assets/images/coffee-machine.png">
         <p class="BotmTaitel">
 
-        أدوات ومستلزمات
+          أدوات ومستلزمات
         </p>
       </button>
-    
+
 
 
       <div class="postar">
-        <img class="DesertBG" src="../assets/images/coffee-beans-turkish-jezve-coffee-cup-and-sugar-2021-09-03-08-56-39-utc.jpg" >
-    
+        <img class="DesertBG"
+          src="../assets/images/coffee-beans-turkish-jezve-coffee-cup-and-sugar-2021-09-03-08-56-39-utc.jpg">
+
         <form>
           <label class="CodeOfer" for="">أدخل الكود هنا</label>
           <input type="text" id="YourCode" name="YourCode" placeholder="Your Code">
@@ -182,9 +190,11 @@
         </button>
       </div>
 
+    </div>
+
   </div>
 
-
+  
 
   <!--  slick >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
   <!-- <section>
