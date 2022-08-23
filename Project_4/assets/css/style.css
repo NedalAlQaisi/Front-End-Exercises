@@ -568,7 +568,8 @@
     border-color: #fde3a7;
     left: 0;
     top: 0;
-    width: 97% !important;
+    padding-left: 8px;
+    width: 100% !important;
     height: 100% !important;
 }
 .SearchCardsSectionHolder h12 {
@@ -586,18 +587,43 @@
 
 .Card {
     
-background: cornflowerblue;
+background: #fff3e2;
     
 position: relative;
     
 margin: 12px;
+    
+border-radius: 10px;
+    
+min-height: 116px;
+    
+top: 6px;
 }
 
 
-.Card .CardImg {width: 74px;margin: 19px;}
+.Card .CardImg {width: 74px;margin: 20px;border-radius: 10px;border: solid 0.1px;}
 
 
 
+
+.CardBody {
+    
+/* text-align: center; */
+    
+padding: 20px;
+    
+padding-right: 107px;
+    
+/* margin-bottom: 66px; */
+    
+margin-top: -125px;
+    
+/* top: 42px; */
+    
+/* left: -76px; */
+    
+/* position: initial; */
+}
 
 
 /* MyWalit >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -5580,12 +5606,13 @@ input[type=email] {
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
 
 * {
-    /* padding: 0; */
+    padding: 0;
     font-family: 'Readex Pro', sans-serif;
     outline: none !important;
     width: auto;
-    margin: 0;
     padding: 0;
+    /* top: 749px; */
+    /* border-radius: 10px; */
 }
 
 .body {
@@ -5596,9 +5623,9 @@ input[type=email] {
 
 .BackPic img {
     /* position: fixed; */
-    left: 0px;
+    /* left: 77px; */
     /* top: 149px; */
-    /* width: auto; */
+    width: 100%;
     /* height: 110% !important; */
     opacity: 40%;
     /* padding-bottom: 531px; */
@@ -5608,18 +5635,27 @@ input[type=email] {
 
 .header {
 
-    display: table;
-    margin: 0 auto;
-    width: 100%;
-    position: fixed;
-    background: #241f1f;
-    padding: 9px 0px;
-    direction: ltr;
-    box-shadow: 10px -25px 10px 37px #241f1f;
-    left: 0;
-    top: 0;
-    z-index: 9999;
+display: table;
 
+margin: 0 auto;
+
+width: 132%;
+
+position: absolute;
+
+background: #241f1f;
+
+padding: 9px 0px;
+
+direction: ltr;
+
+box-shadow: 10px -25px 10px 37px #241f1f;
+
+left: 0;
+
+top: 0;
+
+z-index: 9999;
 }
 
 .header img {
@@ -5692,14 +5728,19 @@ input[type=email] {
 
 
 .toolbar {
-    display: flex;
-    position: fixed;
+    display: inline-flex;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     background: #241f1f;
     box-shadow: inset 0px 0px 25px -20px #fde3a7;
     z-index: 999999999;
+    /* padding: 20px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .ToolbarInner {
@@ -5711,11 +5752,11 @@ input[type=email] {
 
 .toolbar button {
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
     width: auto;
     font-size: 30px;
     padding: 5px 0px;
-    margin: 5px auto;
+    /* margin: 2px auto 7px; */
     border: none;
     background: none;
     color: #804b21;
@@ -5957,7 +5998,7 @@ text-align: center;
 
 position: fixed;
 
-top: 641px;
+top: 610px;
 
 left: 49px;
 
@@ -5972,7 +6013,9 @@ width: auto;
 
 .ButtonSubmit .fa-check-square {
 
-    font-size: 20px;
+font-size: 20px;
+
+/* top: 32px; */
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
@@ -5982,11 +6025,11 @@ width: auto;
 
 
 .DesertBG {
-    position: relative;
+    position: inherit;
     /* left: -14px; */
     top: 0px;
     /* width: 100% !important; */
-    height: 100% !important;
+    height: 29px;
     opacity: 0.5;
     /* border-radius: 10px; */
 }
@@ -6061,7 +6104,7 @@ display: block;
 
 margin: auto;
 
-position: relative;
+/* position: relative; */
 
 background-color: #241f1f;
 
@@ -6073,11 +6116,15 @@ padding-bottom: 30px;
 
 padding-left: 262px;
 
-position: relative;
+position: fixed;
 
 height: 116px;
 
 top: -64px;
+
+width: 156%;
+
+padding-left: 0px;
 
 text-align: right;
 }
@@ -6136,20 +6183,24 @@ text-align: right;
 
 
 .SearchCardsSectionHolder {
-    padding-left: 20px;
-    position: fixed;
-    top: 31px;
+    /* padding-left: 20px; */
+    position: relative;
+    top: 154px;
     /* left: 454px; */
     margin-right: 81px;
     /* margin-top: 3px; */
     margin-right: 8px;
     /* margin-left: -65px; */
-    width: 90;
+    width: 299px;
+    /* padding-left: 0px; */
     /* text-align: center; */
-    /* width: 30px; */
+    width: 359px;
+    margin-top: 0px;
+    height: 32px;
+    /* padding-bottom: 139px; */
 }
 .SearchCardsSectionHolder input {
-    display: block;
+    /* display: block; */
     margin-top: 10px;
     /* text-align: center; */
     border-radius: 6px;
@@ -6164,12 +6215,16 @@ text-align: right;
     border-color: #fde3a7;
     /* left: 32px; */
     /* top: 0; */
-    width: 100;
+    width: 100%;
+    position: relative;
     padding-right: 56px;
-    padding-left: 60px;
+    padding-left: 149px;
     /* height: 136% !important; */
     padding-top: 8px;
     padding-bottom: 10px;
+    width: 114%;
+    padding-left: 8px;
+    text-align: right;
 }
 .SearchCardsSectionHolder h12 {
     color: #241f1f;
