@@ -35,15 +35,6 @@
 
 }
 
-.header img {
-    display: block;
-    margin: 0;
-    width: 42px;
-    margin-top: -1px;
-    margin-bottom: -1px;
-    margin-right: 0px;
-    margin-left: 3px;
-}
 
 .header button {
     display: block;
@@ -544,7 +535,7 @@ height: 33px;
     
 position: relative;30px;
     
-margin-right: 10px;
+margin-right: 252px;
     
 margin-top: auto;
     
@@ -11044,7 +11035,7 @@ input[type=email] {
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
 
 * {
-    /* padding: 0; */
+    padding: 0;
     font-family: 'Readex Pro', sans-serif;
     outline: none !important;
     width: auto;
@@ -11064,18 +11055,27 @@ input[type=email] {
 
 .header {
 
-    display: table;
-    margin: 0 auto;
-    width: 100%;
-    position: fixed;
-    background: #241f1f;
-    padding: 9px 0px;
-    direction: ltr;
-    box-shadow: 10px -25px 10px 37px #241f1f;
-    left: 0;
-    top: 0;
-    z-index: 9999;
+display: table;
 
+margin: 0 auto;
+
+width: 100%;
+
+position: absolute;
+
+background: #241f1f;
+
+padding: 9px 0px;
+
+/* direction: rtl; */
+
+box-shadow: 10px -25px 10px 37px #241f1f;
+
+right: 0;
+
+top: 0;
+
+z-index: 9999;
 }
 
 .header img {
@@ -11085,7 +11085,7 @@ input[type=email] {
     margin-top: -1px;
     margin-bottom: -1px;
     margin-right: 0px;
-    margin-left: 3px;
+    margin-left: 7px;
 }
 
 .header button {
@@ -16596,9 +16596,10 @@ input[type=email] {
     color: #804b21;
     background: none;
     border: #00000000;
-    position: absolute;
-    top: 6px;
-    right: 15px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: auto;
 }
 
 .SearchHeaderBtn i :hover {
@@ -16609,10 +16610,11 @@ input[type=email] {
 .toolbar a {
     display: inline-block;
     vertical-align: top;
-    width: auto;
+    width: 100%;
+    height: 100%;
     font-size: 30px;
-    padding: 5px 0px;
-    margin: 5px auto;
+    /* padding: 0px 0px; */
+    /* margin: auto auto; */
     border: none;
     background: none;
     color: #804b21;
@@ -16622,8 +16624,9 @@ input[type=email] {
 
 
 .mySlides {
-    position: fixed;
-    /* display:none; */
+    position: absolute;
+    /* display:
+    none; */
     top: 55px;
     width: auto;
     height: 196px;
@@ -16638,11 +16641,12 @@ input[type=email] {
     position: relative;
     width: 100%;
     max-height: 46px;
-    display: inline-block;
+    /* display: inline-block; */
     top: -4px;
+    left: 0;
     /* height: 0px; */
     padding: -22px;
-    /* margin: -9px; */
+    margin: auto;
     /* align-items: center; */
 }
 
@@ -16650,7 +16654,7 @@ input[type=email] {
 
 
 .toolbar {
-    display: inline-flex;
+    display:;
     /* left: 0; */
     /* bottom: 0; */
     width: 100%;
@@ -16660,8 +16664,9 @@ input[type=email] {
     /* padding: 20px; */
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+    bottom: 0px;
 }
 
 .ToolbarInner {
@@ -16674,10 +16679,12 @@ input[type=email] {
 .toolbar button {
     display: inline-block;
     /* vertical-align: top; */
-    width: auto;
+    width: 150px;
+    height: 66px;
     font-size: 30px;
-    padding: 5px 0px;
-    /* margin: 2px auto 7px; */
+    padding: -9px 0px;
+    margin: -8px  auto;
+    position: relative;
     border: none;
     background: none;
     color: #804b21;
@@ -16858,11 +16865,12 @@ input[type=email] {
     margin-top: 26px;
     margin-bottom: 100px;
     position: sticky;
+    border-radius: 10px;
 }
 
-.postar form {position: static;top: 541px;/* left: 12px; */margin-right: 17px;margin-top: 74px;/* border-radius: 10px; *//* width: 10px; */}
+.postar form {position: static;top: 541px;/* left: 12px; */margin-right: 17px;/* width: 100%; */margin-top: 74px;/* border-radius: 10px; *//* width: 10px; */}
 
-.postar input {display: block;/* margin: auto; */margin-top: 10px;text-align: center;border-radius: 6px;border: solid;border-color: #fde3a7;height: 26px;width: 75%;}
+.postar input {display: block;/* margin: auto; */margin-top: 10px;text-align: center;border-radius: 6px;border: solid;border-color: #1ac11a;height: 26px;width: 75%;}
 
 
 .postar img {
@@ -16883,9 +16891,9 @@ input[type=email] {
     color: #fde3a7;
 }
 
-.postar .ButtonSubmit {color: #fde3a7;background: none;text-align: center;position: relative;top: -31px;border: none;left: -181px;padding: 0px auto 0px;/* padding-right: 91px; *//* padding-top: 19px; */width: auto;}
+.postar .ButtonSubmit {color: #fde3a7;background: none;text-align:;position: relative;top: -31px;border: none;/* left: -181px; */padding: 0px auto 0px;/* padding-right: 91px; *//* padding-top: 19px; */width: auto;margin-right: 75%;/* margin-right: 181px; */margin-left: 3px;}
 
-.ButtonSubmit .fa-check-square {font-size: 32px;/* top: 49px; */}
+.ButtonSubmit .fa-check-square {font-size: 32px;/* top: 49px; */color: #1ac11a;}
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
 
@@ -16921,9 +16929,9 @@ input[type=email] {
 .ItemsOfChoice .Choice {
     display: inline-block;
     vertical-align: top;
-    width: 30.3%;
+    width: 27.3%;
     background-color: #ffffff;
-    margin: 5px;
+    margin: 3px;
     padding: -10px 0px;
     border: none;
     border-radius: 10px;
@@ -16933,7 +16941,7 @@ input[type=email] {
     /* top: 29px; */
     box-shadow: 6px 6px 4px -3px #241f1f;
     min-height: 36px;
-    min-width: 122px;
+    min-width: 120px;
 }
 
 
@@ -22085,5 +22093,128 @@ input[type=email] {
 .ReadyToDownloadGH p u {
     text-decoration: none;
     color: #ef7900;
+}
+
+.NavImg {
+
+height: 39px;
+
+width: 52px;
+}
+
+.NavMenu {
+    position: absolute;
+    top: 7px;
+    right: 13px;
+}
+
+
+
+#BackWindow {
+    background-color: #00e04e;
+    width: 100%;
+    height: 100%;
+    /* opacity: 80%; */
+    position: absolute;
+    z-index: 999999999;
+}
+
+#Profaile {
+    background-color: #804b21;
+    width: 100%;
+    height: 75%;
+    /* opacity: 100%; */
+    z-index: 9999999999999999999999999;
+    position: absolute;
+}
+
+.SideMenu {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999999999;
+}
+
+.SideMenuFade {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -7;
+    background: black;
+    opacity: 0.7;
+}
+
+.SideMenuInner {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 66%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+}
+.SideMenuInner ul {
+    display: block;
+    margin: 38px auto;
+    padding: 0;
+    width: 100%;
+}
+.SideMenuInner li {
+    display: block;
+    margin: 10px auto;
+    width: 91%;
+    background: #ffe8cf;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.SeeMore {
+
+background-color: #f0f7ff;
+
+/* display: none; */
+
+position: fixed;
+
+right: 0;
+
+top: 0;
+
+z-index: 999999999999;
+
+width: 100%;
+
+height: 100%;
+}
+
+.SeeMore .Exit {
+    
+font-size: 43px;
+    
+padding-left: 319px;
+    
+padding-right: 13px;
+    
+margin-right: 11px;
+    
+width: 37px;
+    
+height: auto;
+}
+
+.SeeBigPic {
+
+}
+
+
+.SeeMorInfomation{
+
+}
+
+.SeeMorInfomation li {
+
 }
 
