@@ -494,6 +494,7 @@
     margin-top: 74px;
 
 }
+
 .SearchCardsSectionHolder input {
     display: block;
     /* margin: auto; */
@@ -520,7 +521,12 @@
 
 
 
-.Card .CardImg {width: 74px;margin: 20px;border-radius: 10px;border: solid 0.1px;}
+.Card .CardImg {
+    width: 74px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid 0.1px;
+}
 
 
 
@@ -528,32 +534,33 @@
 
 
 .Card-boton {
-    
-/* width: 75px; */
-    
-height: 30px;
-    
-position: relative;30px;
-    
-margin-right: 68.5%;
-    
-/* margin-top: 19%; */
-    
-margin-bottom: 19px;
-    
-padding-left: 0px;
-    
-width: 25%;
-    
-border-radius: 10px;
-    
-/* top: 12px; */
-    
-/* left: -9px; */
-    
-box-shadow: 10px;
-    
-filter: 17 13 black;
+
+    /* width: 75px; */
+
+    height: 30px;
+
+    position: relative;
+    30px;
+
+    margin-right: 68.5%;
+
+    /* margin-top: 19%; */
+
+    margin-bottom: 19px;
+
+    padding-left: 0px;
+
+    width: 25%;
+
+    border-radius: 10px;
+
+    /* top: 12px; */
+
+    /* left: -9px; */
+
+    box-shadow: 10px;
+
+    filter: 17 13 black;
 }
 
 /* MyWalit >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -5818,9 +5825,26 @@ input[type=email] {
     position: sticky;
 }
 
-.postar form {position: static;top: 541px;/* left: 12px; */margin-right: 17px;margin-top: 74px;/* border-radius: 10px; *//* width: 10px; */}
+.postar form {
+    position: static;
+    top: 541px;
+    /* left: 12px; */
+    margin-right: 17px;
+    margin-top: 74px;
+    /* border-radius: 10px; */
+    /* width: 10px; */
+}
 
-.postar input {display: block;/* margin: auto; */margin-top: 10px;text-align: center;border-radius: 6px;border: solid;border-color: #fde3a7;height: 26px;}
+.postar input {
+    display: block;
+    /* margin: auto; */
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 6px;
+    border: solid;
+    border-color: #fde3a7;
+    height: 26px;
+}
 
 
 .postar img {
@@ -5841,9 +5865,24 @@ input[type=email] {
     color: #fde3a7;
 }
 
-.postar .ButtonSubmit {color: #fde3a7;background: none;text-align: center;position: relative;top: -47px;border: none;left: -18px;padding: 0px auto 0px;/* padding-right: 91px; *//* padding-top: 19px; */width: auto;}
+.postar .ButtonSubmit {
+    color: #fde3a7;
+    background: none;
+    text-align: center;
+    position: relative;
+    top: -47px;
+    border: none;
+    left: -18px;
+    padding: 0px auto 0px;
+    /* padding-right: 91px; */
+    /* padding-top: 19px; */
+    width: auto;
+}
 
-.ButtonSubmit .fa-check-square {font-size: 32px;/* top: 60px; */}
+.ButtonSubmit .fa-check-square {
+    font-size: 32px;
+    /* top: 60px; */
+}
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
 
@@ -5929,33 +5968,33 @@ input[type=email] {
 
 .SearchCardsSection {
 
-display: block;
+    display: block;
 
-margin: auto;
+    margin: auto;
 
-/* position: relative; */
+    /* position: relative; */
 
-background-color: #241f1f;
+    background-color: #241f1f;
 
-/* border: #00e04e; */
+    /* border: #00e04e; */
 
-padding-top: 21px;
+    padding-top: 21px;
 
-padding-bottom: 30px;
+    padding-bottom: 30px;
 
-padding-left: 262px;
+    padding-left: 262px;
 
-position: fixed;
+    position: fixed;
 
-height: 116px;
+    height: 116px;
 
-top: -63px;
+    top: -63px;
 
-width: 156%;
+    width: 156%;
 
-padding-left: 0px;
+    padding-left: 0px;
 
-text-align: right;
+    text-align: right;
 }
 
 
@@ -6028,6 +6067,7 @@ text-align: right;
     height: 32px;
     /* padding-bottom: 139px; */
 }
+
 .SearchCardsSectionHolder input {
     /* display: block; */
     margin-top: 10px;
@@ -11057,27 +11097,27 @@ input[type=email] {
 
 .header {
 
-display: table;
+    display: table;
 
-margin: 0 auto;
+    margin: 0 auto;
 
-width: 100%;
+    width: 100%;
 
-position: absolute;
+    position: absolute;
 
-background: #241f1f;
+    background: #241f1f;
 
-padding: 9px 0px;
+    padding: 9px 0px;
 
-/* direction: rtl; */
+    /* direction: rtl; */
 
-box-shadow: 10px -25px 10px 37px #241f1f;
+    box-shadow: 10px -25px 10px 37px #241f1f;
 
-right: 0;
+    right: 0;
 
-top: 0;
+    top: 0;
 
-z-index: 9999;
+    z-index: 9999;
 }
 
 .header img {
@@ -11548,6 +11588,7 @@ z-index: 9999;
     margin-top: 74px;
 
 }
+
 .SearchCardsSectionHolder input {
     display: block;
     /* margin: auto; */
@@ -11581,7 +11622,12 @@ z-index: 9999;
 }
 
 
-.Card .CardImg {width: 75px;margin: 20px;border-radius: 10px;border: solid 0.1px;}
+.Card .CardImg {
+    width: 75px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid 0.1px;
+}
 
 
 
@@ -16656,7 +16702,7 @@ input[type=email] {
 
 
 .toolbar {
-    display:;
+    display: ;
     /* left: 0; */
     /* bottom: 0; */
     width: 100%;
@@ -16685,7 +16731,7 @@ input[type=email] {
     height: 66px;
     font-size: 30px;
     padding: -9px 0px;
-    margin: -8px  auto;
+    margin: -8px auto;
     position: relative;
     border: none;
     background: none;
@@ -16870,9 +16916,28 @@ input[type=email] {
     border-radius: 10px;
 }
 
-.postar form {position: static;top: 541px;/* left: 12px; */margin-right: 17px;/* width: 100%; */margin-top: 74px;/* border-radius: 10px; *//* width: 10px; */}
+.postar form {
+    position: static;
+    top: 541px;
+    /* left: 12px; */
+    margin-right: 17px;
+    /* width: 100%; */
+    margin-top: 74px;
+    /* border-radius: 10px; */
+    /* width: 10px; */
+}
 
-.postar input {display: block;/* margin: auto; */margin-top: 10px;text-align: center;border-radius: 6px;border: solid;border-color: #1ac11a;height: 26px;width: 75%;}
+.postar input {
+    display: block;
+    /* margin: auto; */
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 6px;
+    border: solid;
+    border-color: #1ac11a;
+    height: 26px;
+    width: 75%;
+}
 
 
 .postar img {
@@ -16893,9 +16958,28 @@ input[type=email] {
     color: #fde3a7;
 }
 
-.postar .ButtonSubmit {color: #fde3a7;background: none;text-align:;position: relative;top: -31px;border: none;/* left: -181px; */padding: 0px auto 0px;/* padding-right: 91px; *//* padding-top: 19px; */width: auto;margin-right: 75%;/* margin-right: 181px; */margin-left: 3px;}
+.postar .ButtonSubmit {
+    color: #fde3a7;
+    background: none;
+    text-align: ;
+    position: relative;
+    top: -31px;
+    border: none;
+    /* left: -181px; */
+    padding: 0px auto 0px;
+    /* padding-right: 91px; */
+    /* padding-top: 19px; */
+    width: auto;
+    margin-right: 75%;
+    /* margin-right: 181px; */
+    margin-left: 3px;
+}
 
-.ButtonSubmit .fa-check-square {font-size: 32px;/* top: 49px; */color: #1ac11a;}
+.ButtonSubmit .fa-check-square {
+    font-size: 32px;
+    /* top: 49px; */
+    color: #1ac11a;
+}
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< postar */
 
@@ -16981,33 +17065,33 @@ input[type=email] {
 
 .SearchCardsSection {
 
-display: block;
+    display: block;
 
-margin: auto;
+    margin: auto;
 
-/* position: relative; */
+    /* position: relative; */
 
-background-color: #241f1f;
+    background-color: #241f1f;
 
-/* border: #00e04e; */
+    /* border: #00e04e; */
 
-padding-top: 21px;
+    padding-top: 21px;
 
-padding-bottom: 30px;
+    padding-bottom: 30px;
 
-padding-left: 262px;
+    padding-left: 262px;
 
-position: fixed;
+    position: fixed;
 
-height: 116px;
+    height: 116px;
 
-top: -63px;
+    top: -63px;
 
-width: 156%;
+    width: 156%;
 
-padding-left: 0px;
+    padding-left: 0px;
 
-text-align: right;
+    text-align: right;
 }
 
 
@@ -17080,6 +17164,7 @@ text-align: right;
     height: 32px;
     /* padding-bottom: 139px; */
 }
+
 .SearchCardsSectionHolder input {
     /* display: block; */
     margin-top: 10px;
@@ -17107,6 +17192,7 @@ text-align: right;
     padding-left: 8px;
     text-align: right;
 }
+
 .SearchCardsSectionHolder h12 {
     color: #241f1f;
     background: none;
@@ -22099,9 +22185,9 @@ input[type=email] {
 
 .NavImg {
 
-height: 39px;
+    height: 39px;
 
-width: 52px;
+    width: 52px;
 }
 
 .NavMenu {
@@ -22158,12 +22244,14 @@ width: 52px;
     z-index: 2;
     background: white;
 }
+
 .SideMenuInner ul {
     display: block;
     margin: 38px auto;
     padding: 0;
     width: 100%;
 }
+
 .SideMenuInner li {
     display: block;
     margin: 10px auto;
@@ -22175,85 +22263,201 @@ width: 52px;
 
 .SeeMore {
 
-background-color: #f0f7ff;
+    background-color: #f0f7ff;
 
-display: none;
+    display: none;
 
-position: fixed;
+    position: fixed;
 
-right: 0;
+    right: 0;
 
-top: 0;
+    top: 0;
 
-z-index: 999999999999;
+    z-index: 9999999999;
 
-width: 100%;
+    width: 100%;
 
-height: 100%;
+    height: 100%;
 }
 
 .SeeMore {
-    
-text-align: center;
+
+    text-align: center;
 }
+
 .SeeMore .Exit {
-    
-font-size: 43px;
-    
-/* padding-left: 319px; */
-    
-/* padding-right: 13px; */
-    
-margin-right: 0px;
-    
-width: 55px;
-    
-height: 55px;
-    
-text-align: center;
-    
-padding: 0px;
+
+    font-size: 43px;
+
+    /* padding-left: 319px; */
+
+    /* padding-right: 13px; */
+
+    margin-right: 0px;
+
+    width: 55px;
+
+    height: 55px;
+
+    text-align: center;
+
+    padding: 0px;
+
+    color: #241f1f;
 }
 
 .SeeBigPic {
-    
-text-align: center;
-    
-width: 80%;
-    
-border: solid 2px;
-    
-border-radius: 10px;
-    
-margin-right: 10%;
-    
-border-color: #00e04e;
-    
-box-shadow: inset 0px 0px 11px 3px #000000;
+
+    text-align: center;
+
+    width: 80%;
+
+    border: solid 2px;
+
+    border-radius: 10px;
+
+    margin-right: 10%;
+
+    border-color: #241f1f;
+
+    box-shadow: inset 0px 0px 11px 3px #241f1f;
 }
+
 .SeeBigPic img {
 
-width: 100%;
+    width: 100%;
+
+    height: auto;
+
+    /* border: solid 2px; */
+
+    /* border-radius: 10px; */
+
+    /* border-color: #347eeb; */
+
+    z-index: -9;
+
+    position: relative;
+}
+
+.GoFullPic button {
+    background: none;
+    background-color: #804b2100;
+    border-radius: 10px;
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-size: 23px;
+    position: absolute;
+    left: 9.3%;
+    top: 54px;
+}
+
+.SeeMorInfomation {}
+
+.SeeMorInfomation li {}
+
+
+.MoreDoc {
+
+    width: 80%;
+
+    /* height: 126px; */
+
+    margin: 10%;
+
+    text-align: justify;
+}
+
+.MoreDoc p {
+
+    /* tab-size: 12px; */
+
+    font-size: 18px;
+}
+
+.MoreDoc p .fa-quote-right {
+    font-size: 26px;
+    color: #241f1f;
+}
+
+.MoreDoc p .fa-quote-left {
+
+    font-size: 26px;
+
+    color: #241f1f;
+}
+
+
+.FullPic {
+
+    width: 100%;
+
+    height: 100%;
+
+    position: absolute;
+
+    background-color: #000000e3;
+
+    top: 0px;
+}
+
+
+.ThesPic {
+
+    height: 100%;
+
+    width: 100%;
+}
+
+.FullPic img {
+
+    width: 100%;
+
+    position: absolute;
+
+    left: 0px;
+
+    top: 10%;
+
+    z-index: 99999999999999999999999999999999;
+}
+
+
+
+.PayBtn button {
+    color: white;
+    background-color: #05b30c;
+    width: 36%;
+    height: 53px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+
+.Praise button {
+
+position: absolute;
+
+top: 43px;
+
+/* left: 76%; */
+
+margin-right: -35%;
+
+background-color: red;
+
+color: white;
+
+border-radius: 10px;
+
+width: 20%;
 
 height: auto;
 
-/* border: solid 2px; */
+font-size: 16px;
 
-/* border-radius: 10px; */
+min-height: 34px;
 
-/* border-color: #347eeb; */
-
-z-index: -9;
-
-position: relative;
+box-shadow: 0px 0px 15px 4px black;
 }
-
-
-.SeeMorInfomation{
-
-}
-
-.SeeMorInfomation li {
-
-}
-
